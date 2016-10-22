@@ -1,1 +1,1 @@
-# wine
+Docker Wine version 1.9.2
