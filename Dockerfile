@@ -14,12 +14,12 @@ RUN apt-get update -y \
 		unzip \
 		software-properties-common \
 	&& add-apt-repository ppa:wine/wine-builds
-
+	
 # Install wine and related packages
 RUN dpkg --add-architecture i386 \
 	&& apt-get update -y \
 	&& apt-get install -y --no-install-recommends \
-		wine1.8 \
+		winehq-devel \
 		wine-gecko$WINE_GECKO_VERSION:i386 \
 		wine-gecko$WINE_GECKO_VERSION:amd64 \
 		wine-mono$WINE_MONO_VERSION \
