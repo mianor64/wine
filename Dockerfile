@@ -13,7 +13,7 @@ RUN apt-get update -y \
 		curl \
 		unzip \
 		software-properties-common \
-	&& add-apt-repository ppa:ubuntu-wine/ppa
+	&& add-apt-repository ppa:ubuntu-wine/ppa \
 	&& add-apt-repository ppa:wine/wine-builds
 
 # Install wine and related packages
