@@ -21,9 +21,7 @@ RUN dpkg --add-architecture i386 \
 	&& apt-get update -y \
 	&& apt-get install -y --no-install-recommends \
 		winehq-devel \
-		wine-gecko$WINE_GECKO_VERSION:i386 \
-		wine-gecko$WINE_GECKO_VERSION:amd64 \
-		wine-mono$WINE_MONO_VERSION \
+		winetricks \
 	&& rm -rf /var/lib/apt/lists/*
 
 # Use latest version of winetricks from github
