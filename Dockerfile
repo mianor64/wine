@@ -1,4 +1,4 @@
-FROM suchja/x11client:ubuntu
+FROM mianor64/x11client:ubuntu
 MAINTAINER Bob <mianor64@gmail.com>
 
 USER root
