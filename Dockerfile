@@ -1,4 +1,4 @@
-FROM mianor64/x11client
+FROM mianor64/xclient
 MAINTAINER Bob <mianor64@gmail.com>
 
 USER root
