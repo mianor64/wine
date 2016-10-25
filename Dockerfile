@@ -1,4 +1,4 @@
-FROM mianor64/xclient
+FROM mianor64/xclient:latest
 MAINTAINER Bob <mianor64@gmail.com>
 
 USER root
